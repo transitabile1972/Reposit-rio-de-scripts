@@ -1,0 +1,28 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	 <s:Body>
+		<CheckUserAuthenticationResponse xmlns="http://tempuri.org/">
+			<CheckUserAuthenticationResult xmlns:a="http://schemas.datacontract.org/2004/07/CPPaaS.Service.Model"
+			xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<a:Error>false</a:Error>
+				<a:Authenticated>true</a:Authenticated>
+					<a:User>
+						<a:Cod></a:Cod>
+						<a:Address1 i:nil="true"/>
+						<a:Address2 i:nil="true"/>
+						<a:City>
+							<a:Cod i:nil="true"/>
+							<a:Description i:nil="true"/>
+						</a:City>
+						<a:EMail></a:EMail>
+						<a:Name></a:Name>
+						<a:NationalIdentifier></a:NationalIdentifier>
+						<a:Password i:nil="true"/>
+						<a:Phone1 i:nil="true"/>
+						<a:Phone2 i:nil="true"/>
+						<a:UpdateDate></a:UpdateDate>
+						<a:ZipCode i:nil="true"/>
+					</a:User>					
+			</CheckUserAuthenticationResult>
+		</serAuthenticationResponse>
+	</s:Body>
+</s:Envelope>
