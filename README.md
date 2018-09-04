@@ -1,2 +1,2 @@
-# Reposit-rio-de-scripts
+# Repositorio-de-scripts
 Repositório de scripts da Transitabile
