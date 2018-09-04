@@ -1,0 +1,28 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	 <s:Body>
+		<AskChargebackResponse xmlns="http://tempuri.org/">
+			<AskChargebackResult xmlns:a="http://schemas.datacontract.org/2004/07/CPPaaS.Service.Model"
+			xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<a:Error>false</a:Error>
+				<a:Chargeback>
+					<a:Cod></a:Cod>
+					<a:User>
+						<a:Cod></a:Cod>
+						<a:Description/>
+					</a:User>
+					<a:Product>
+						<a:Cod></a:Cod>
+						<a:Description/>
+					</a:Product>
+					<a:Quantity></a:Quantity>
+					<a:Reason></a:Reason>
+					<a:DescriptionReason></a:DescriptionReason>
+					<a:Status></a:Status>
+					<a:DescriptionStatus i:nil="true"/>
+					<a:DateRequest></a:DateRequest>
+					<a:DateLastStatus i:nil="true"/>
+				</a:Chargeback>
+			</AskChargebackResult>
+		</AskChargebackResponse>
+	</s:Body>
+</s:Envelope>

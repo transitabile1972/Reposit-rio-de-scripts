@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:tem="http://tempuri.org/" xmlns:cpp="http://schemas.datacontract.org/2004/07/CPPaaS.Service.Model">
+		<soapenv:Header/>
+		<soapenv:Body>
+			<tem:AskChargeback>
+				<tem:message>
+					<cpp:CodOrigin></cpp:CodOrigin>
+					<cpp:Timestamp></cpp:Timestamp>
+					<cpp:CodUser></cpp:CodUser>
+					<cpp:CodProduct></cpp:CodProduct>
+					<cpp:Quantity></cpp:Quantity>
+					<cpp:Reason></cpp:Reason>
+					<cpp:DescriptionReason></cpp:DescriptionReason>
+				</tem:message>
+			</tem:AskChargeback>
+		</soapenv:Body>
+</soapenv:Envelope>
